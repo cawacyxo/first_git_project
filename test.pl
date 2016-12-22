@@ -5,7 +5,7 @@
 #
 #        USAGE: ./test.pl  
 #
-#  DESCRIPTION: 
+#  DESCRIPTION: Testing tree 
 #
 #      OPTIONS: ---
 # REQUIREMENTS: ---

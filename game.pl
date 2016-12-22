@@ -27,7 +27,7 @@ use constant EMPTY   => '-';
 use constant WHITE   => 'w';
 use constant BLACK   => 'b';
 use constant SIZE    => 10;
-use constant WIN_CNT => 3;
+use constant WIN_CNT => 5;
 
 my @game_field;
 my $player = "";
