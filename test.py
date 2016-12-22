@@ -44,6 +44,9 @@ for i in range(0, len(result)):
         versions.append(m.group(3))
 
 
+#
+# Working with XML
+# 
 doc = minidom.parse(XML_file)
 for node in doc.getElementsByTagName("patch"):
     id = node.getElementsByTagName("id")[0].firstChild.data

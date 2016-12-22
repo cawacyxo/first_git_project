@@ -85,7 +85,9 @@ sub get_cell_value {
     return $game_field[$x][$y];
 }
 
-
+=pod
+Function display questions and returns answer
+=cut
 sub user_interact {
     my ($curr_player, $mess) = @_;
     my $move = "";
