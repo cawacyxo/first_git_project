@@ -10,12 +10,19 @@ from xml.dom import minidom
 UBF_file = ''
 XML_file = ''
 
+'''
+Check here number of arguments
+Exit if number of arg less then 
+'''
 if len(sys.argv) < 3:
 	print 'Expected 2 arguments'
 	print 'Full path and name of UBF file'
 	print 'Full path and name of pom.xml'
 	sys.exit(1)
 
+'''
+Check that file exists
+'''
 if not os.path.exists(sys.argv[1]):
 	print 'File \"' + sys.argv[1] + '\" does not exist'
 	sys.exit(2)
