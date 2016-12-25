@@ -45,5 +45,7 @@ eol = char '\n'
 parseCSV :: String -> Either ParseError [[String]]
 parseCSV input = parse csvFile "(unknown)" input
 
+{- It stupid play
+with GIT -}
 
 
